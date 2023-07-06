@@ -7,7 +7,7 @@ using namespace std;
    for(int i=n-2;i>=0;i--){
     if(curr_leader<arr[i]){
         curr_leader=arr[i];
-        cout<<curr_leader<<" ";
+       cout<<curr_leader<<" ";
     }
 
    }
