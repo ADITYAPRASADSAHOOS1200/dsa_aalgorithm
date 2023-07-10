@@ -1,2 +1,1 @@
-
-   }
+ cout<<maximumdifference(arr,7)<<" ";
