@@ -16,9 +16,10 @@ using namespace std;
 
 
 int main(){
-     int arr[7]={7,10,4,10,6,5,2};
+    
+int arr[6] = {16,17,4,3,5,2};
   
-    leader(arr,7);
+    leader(arr,6);
     return 0;
  
     }
