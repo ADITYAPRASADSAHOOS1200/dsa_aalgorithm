@@ -10,7 +10,7 @@ m[3]=14;
 m[4]=15; 
 m.insert({5,234});
 for(auto i:m){// trverse all the elements in key
-cout<<i.first<<endl; 
+cout<<i.second<<endl; 
 }
 cout<<endl;
 

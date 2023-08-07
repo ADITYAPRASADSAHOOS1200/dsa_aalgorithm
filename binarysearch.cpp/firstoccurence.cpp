@@ -20,7 +20,8 @@ int bsearch(int arr[],int n,int x){
 
 }
 int main(){
-    int arr[8]={5,10,10,20,20,20,30,40};
-    int x=20;
-    cout<<bsearch(arr,8,20);
+   int arr[] = {10, 20, 20, 20, 40, 40,20}, n = 7;
+
+   int x = 20;
+    cout<<bsearch(arr,7,20);
 }
