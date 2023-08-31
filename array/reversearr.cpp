@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void reverse(int arr[],int start,int end){
-   
+
    while(start<end){
        swap(arr[start],arr[end]);
        start++;
@@ -19,8 +19,7 @@ cout << endl;
 int main(){
     int arr[6]={10,20,30,40,50,60};
     int n=6;
-    printArray(arr,6);
+      printArray(arr,6);
      reverse(arr,0,n-1);
-     
-     
+     printArray(arr,6);
 }
